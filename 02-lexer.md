@@ -30,9 +30,9 @@ The lexer knows that according to the rules we defined, words can't have numbers
 and if we write
 `jumped Dog moon. over`
 
->numbers in identifiers are valid in many languages, the above analogy is just an example to understand the logistics of a language.
-
 The lexer knows this matches the patterns of valid words so it will make `Tokens` out of this. It still doesn't know if sentence is right grammatically, it doesn't know rules of grammar, it just tries to classify stream of characters **for each word.**
+
+>numbers in identifiers are valid in many languages, the above analogy is just an example to understand the logistics of a language.
 
 These meaningful words in a programming language are called Tokens.
 
